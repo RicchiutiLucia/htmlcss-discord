@@ -7,49 +7,21 @@
 /* Debug */
 
 .debug header {
-    background-color: #ADD8E6;
-    margin-bottom: 30px;
-    
-    
-}
-.debug h4{
-    background-color: #DAA520;
-
+    background-color: #255EE9;
 }
 
 /* regole css*/
 
 .flex-conteiner{
     display: flex;
-    justify-content: center;
     padding: 20px;
-    max-width: 1500px;
-    align-content:center;
+    max-width: 1170px;
+    margin: auto;
+    justify-content: space-between;
+    
     
 }
 
-h4{
-    height: 30%;
-    border: dashed 2px black;
-    padding: 5px;
-    
-}
-
-.flex-conteiner .logo{
-    width: 250px;
-    
-}
-
-.flex-conteiner .navigazione{
-    width: 500px;
-    text-align: center;
-    
-}
-.flex-conteiner .login{
-    width: 250px;
-    text-align:right;
-    
-}
 
 
 .header-bottom{
