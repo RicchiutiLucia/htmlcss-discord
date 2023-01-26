@@ -43,6 +43,10 @@ li{
 .button.small-button{
     padding: 8px;
 }
+.button.button-violet{
+    color:white;
+    background-color:#7289DA;
+}
 
 
 
@@ -122,80 +126,64 @@ li{
    
 }
 
-.footer-top{
+footer {
     background-color: #23272A;
-    padding: 50px;
-    
-    
-    
 }
 
-.flex .contenutoA{
-
-    border: 2px dashed white;
-    width: 20%;
-    height: 400px;
-    background-color: #F08080;
-
-}
-.flex .contenutoB{
-
-    border: 2px dashed white;
-    width: 10%;
-    height: 400px;
-    background-color: #1FAEA6;
-    
-}
-.flex .contenutoC{
-    border: 2px dashed white;
-    width: 10%;
-    height: 400px;
-    background-color: #1FAEA6;
-    
-}
-.flex .contenutoD{
-    border: 2px dashed white;
-    width: 10%;
-    height: 400px;
-    background-color: #1FAEA6;
-    
-}
-.flex .contenutoE{
-    border: 2px dashed white;
-    width: 10%;
-    height: 400px;
-    background-color: #1FAEA6;
-    
-}
-hr{
+.social {
     color: white;
-    margin: 30px 0px;
+
 }
 
+.ita {
+    width: 1.5rem;
+}
 
-.flex2{
+h4  {
+    color: #7289da;
+    font-size: 1.2rem;
+}
+
+.title {
+    color: #7289da;
+}
+
+li {
+    color: white;
+}
+
+.foot-menu {
+    flex-basis: 68%;
+}
+ .striscia {
+    border-top: 2px solid #7289da;
+ }
+
+
+ .container-down2 {
+    display: flex;
+    max-width: 1170px;
+    margin: auto;
+    justify-content: space-between;
+    align-content: center;
+
+}
+    
+li {
+    line-height: 2.5rem;
+    list-style: none;
+}
+
+footer {
+    padding: 2.5rem;
+}
+
+section {
+    padding-bottom: 3.5rem;
+}
+.footer-conteiner{
     display: flex;
     justify-content: space-between;
-    background-color: #7FFFD4;
-    align-content:center;
-    max-width: 1500px;
-}
+    padding: 10px;
 
-h5{
-    border: 2px dashed black;
-
-}
-.logo-footer{
-    background-color: #FFB6C1;
-    padding:5px;
-    margin:10px 0px;
-}
-.bottone-footer{
-    background-color: #FFB6C1;
-    padding: 5px;
-    margin:10px 0px;
-
-}
-.background{
-    background-color: #23272A;
 }
